@@ -17,11 +17,14 @@
 ## Promote your server to `Domain Controller`
 Once the installation finishes, click on the yellow notification flag in the top right of Server Manager.
 1. In the Setup Window, select Add a new forest.
-2. Type in a private domain name for your lab. ex: homelab.local, private.internal etc.
+2. Type in a private domain name for your lab. ex: `homelab.local`, `private.internal` etc.
 3. In the Domain Controller Options - 
 - Leave the Functional Levels at Windows Server 2016 (or the highest default version available).  
 - Type in a Directory Services Restore Mode password. (Remember it since its a recovery password)
 4. If you get a delegation warning on the DNS tab ignore it and click next
-5. Additional Options: It will automatically fill in your NetBIOS domain name (e.g., HOMELAB)
+5. Additional Options: It will automatically fill in your NetBIOS domain name (e.g., `HOMELAB`)
 6. Paths / Review Options: Leave the default folder paths for database and logs. 
 7. Click Next, then Next again after the system verifies prerequisites. Install: Click Install.
+
+> [!NOTE]
+> If you are connnecting to the server remotely via RDP enter the domain name along with the user name in this format `domain\username` eg: HOMELAB\Administrator.

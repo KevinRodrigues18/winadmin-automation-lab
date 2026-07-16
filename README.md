@@ -10,6 +10,6 @@ A Homelab project to learn and document on scripting and automation of tasks as 
 6. Then Click next till the install screen
 7. After the installation is complete restart the server.
 
-<img width="75%" height="75%" alt="image" src="https://github.com/user-attachments/assets/e1eda5f7-706a-4cce-ae6e-115dab2ff1a9" />
+<img width="50%%" height="50%%" alt="image" src="https://github.com/user-attachments/assets/e1eda5f7-706a-4cce-ae6e-115dab2ff1a9" />
 
    

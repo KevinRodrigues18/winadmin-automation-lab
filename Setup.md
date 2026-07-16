@@ -27,4 +27,4 @@ Once the installation finishes, click on the yellow notification flag in the top
 7. Click Next, then Next again after the system verifies prerequisites. Install: Click Install.
 
 > [!NOTE]
-> If you are connnecting to the server remotely via RDP enter the domain name along with the user name in this format `domain\username` eg: HOMELAB\Administrator.
+> If you are connnecting to the server remotely via RDP enter the domain name along with the user name in this format `domain\username` eg: HOMELAB\Administrator (HOMELAB being the NetBios prefix you gave during setup)

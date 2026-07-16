@@ -2,8 +2,8 @@
 A Homelab project to learn and document on scripting and automation of tasks as an admin, from bulk user creation in AD to resetting passwords and checking disk space across machines.
 
 # Prerequisites
-- An installation of the Windows Server 2022 Standard on Data Center Evaluation.
-- A static IP addresss since DHCP is not supported for domain controllers
+- An installation of the Windows Server 2022 Standard or Data Center Evaluation.
+- A static IP addresss for the server.
 - Change of Server Name before promoting it to domain controller.
 
 # Setting up AD in Windows Server 2022 

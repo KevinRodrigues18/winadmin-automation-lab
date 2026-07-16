@@ -21,7 +21,7 @@ A Homelab project to learn and document on scripting and automation of tasks as 
 Once the installation finishes, click on the yellow notification flag in the top right of Server Manager.
 1. In the Setup Window, select Add a new forest.
 2. Type in a private domain name for your lab. ex: homelab.local, private.internal etc.
-3. In the Domain Controller Options:  
+3. In the Domain Controller Options - 
 - Leave the Functional Levels at Windows Server 2016 (or the highest default version available).  
 - Type in a Directory Services Restore Mode password. (Remember it since its a recovery password)
 4. If you get a delegation warning on the DNS tab ignore it and click next

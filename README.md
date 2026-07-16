@@ -17,4 +17,22 @@ A Homelab project to learn and document on scripting and automation of tasks as 
 
 <img width="50%%" height="50%%" alt="image" src="https://github.com/user-attachments/assets/e1eda5f7-706a-4cce-ae6e-115dab2ff1a9" />
 
+## Promote your server to Domain Controller
+Once the installation finishes, click on the yellow notification flag in the top right of Server Manager.
+In the Setup Window
+Select Add a new forest.
+Type in a private domain name for your lab. ex: homelab.local, private.internal etc.
+
+In the Domain Controller Options:
+Leave the Functional Levels at Windows Server 2016 (or the highest default version available).
+Type in a Directory Services Restore Mode password. (Remember it since its a recovery password)
+
+If you get a delegation warning on the DNS tab ignore it and click next
+
+Additional Options: It will automatically fill in your NetBIOS domain name (e.g., HOMELAB)
+
+Paths / Review Options: Leave the default folder paths for database and logs. 
+
+Click Next, then Next again after the system verifies prerequisites. Install: Click Install.
+
    

@@ -25,7 +25,7 @@ foreach ($User in $Users) {
     else {
         $SecurePassword = ConvertTo-SecureString $User.Password -AsPlainText -Force
 
-    # Map the CSV fields to the Active Directory (If you added more fields u will need to add it under $UserParam
+    # Map the CSV fields to the Active Directory (If you added more fields u will need to add it under $UserParam)
     $UserParams = @{
         SamAccountName        = $User.SamAccountName
         UserPrincipalName     = "$($User.SamAccountName)@homelab.local"
